@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>Upload a File</h1>
+    <input id="filePicker" type="file"/>
+    <button id="uploadFileBtn" disabled>Upload File</button>
+    <button id="extractMetadataBtn" disabled>Extract Metadata</button>
+
+    <!-- Metadata display container -->
+    <div id="metadata"></div>
+
+    <script src="https://unpkg.com/@mux/upchunk@3"></script> <!-- CDN for UpChunk -->
+    <script src="../src/frontend.js" type="module"></script>  <!-- Reference JS file correctly as a module -->
+
+</body>
+</html>
